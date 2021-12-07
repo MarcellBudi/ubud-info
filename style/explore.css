@@ -1,0 +1,203 @@
+/* slider */
+@keyframes slider{
+
+	0%{
+		left: 0;
+	}
+    15%{
+        left: 0;
+    }
+	20%{
+        left: -100%;
+	}
+	35%{
+        left: -100%;
+	}
+	40%{
+        left: -200%;
+	}
+	55%{
+        left: -200%;
+	}
+	60%{
+        left: -300%;
+	}
+	75%{
+        left: -300%;
+	}
+	80%{
+        left: -400%;
+	}
+    95%{
+        left: -400%;
+    }
+	100%{
+        left: 0;
+	}
+}
+
+
+#slider{
+	position: relative;
+	overflow: hidden;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
+.explore img{
+    height: 20%;
+}
+
+.judul-expl{
+    color: white;
+    text-shadow: 0 0 30px black;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    bottom: 350px;
+    text-align: center;
+}
+
+.judul-expl h1{
+    font-size: 100px
+}
+
+.judul-expl h2{
+    text-shadow: 0 0 10px black;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.trending-exp{
+    margin-top: -90px;
+    text-align: center;
+}
+
+.trending-exp h1{
+    font-size: 40px;
+}
+
+.trending-exp hr{
+    border: none;
+    background-color: black;
+    height: 3px;
+    width: 5%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.tren-conten{
+    margin-top: 50px;
+    background-color: white;
+}
+
+ 
+.tren-conten figure{
+    margin: 10px;
+    border-radius: 35px;
+    border: solid 1px gray;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.tren-conten img{
+   width: 290px;
+}
+
+.fas{
+    padding-top: 10px;
+    font-size: 20px;
+}
+  
+.fa-star{
+    color: #FF9900;
+}
+  
+.fa-star-half-alt{
+    color: #FF9900;
+}
+  
+.judul-conten{
+    padding: 10px 0px ;
+    font-weight: bold;
+}
+  
+.sub-content {
+    font-size: 12px;
+ }
+  
+.more-detail{
+    margin: 20px 15px;
+}
+  
+.more-detail a{
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 100px;
+    color: black;
+    background-color: #FF9900;
+    padding: 10px 20px;
+}
+
+.tren-conten2{
+    margin-top: 20px;
+    background-color: white;
+}
+
+ 
+.tren-conten2 figure{
+    margin: 10px;
+    border-radius: 35px;
+    border: solid 1px gray;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.tren-conten2 img{
+   width: 290px;
+}
+
+
+.butt-see{
+    margin: auto;
+    width: 15%;
+    padding: 10px 10px;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+}
+
+.butt-see a{
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: #FFC400;
+    padding: 10px 15px;
+    color: black;
+}
+
+.butt-see i{
+    left: 3px;
+    position: relative;
+    top: 2px;
+}
+
+
+.hr{
+    position: relative;
+    top: -20px;
+}
