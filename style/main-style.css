@@ -7,7 +7,7 @@
 }
 
 /* header */
-header{
+/* header{
     position: fixed;
     z-index: 99;
     top: 0;
@@ -17,7 +17,7 @@ header{
     background-color: rgba(19, 19, 19, 0.897);
     backdrop-filter: blur( 4px );
     box-shadow: 30px 0 10px black;
-}
+} */
 
 header .nav-container{
     width: 80%;
@@ -41,6 +41,8 @@ header nav{
     justify-content: center;
     align-items: center;
 }
+
+
 
 header nav ul li{
     display: inline;

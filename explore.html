@@ -8,6 +8,71 @@
   <link rel="stylesheet" href="style/main-style.css">
   <link rel="stylesheet" href="style/explore.css">
   <link rel="stylesheet" href="style/responsive.css">
+  <style>
+    header{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(19, 19, 19, 0.897);
+    backdrop-filter: blur( 4px );
+    box-shadow: 30px 0 10px black;
+    }
+
+    header .nav-container{
+        width: 80%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo{
+        width: auto;
+        height: auto;
+    }
+
+    header .logo img{
+        width: 100px;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li{
+        display: inline;
+        margin: 0 5px;
+        padding: 10px 0;
+    }
+
+    header nav ul li a{
+        padding: 10px 20px;
+        border-radius: 20px;
+        transition: 0.3s ease-in;
+        color: white;
+        font-weight: bold;
+    }
+
+    header nav ul li a:hover{
+        background-color: rgba(32, 32, 32, 0.863);
+    }
+
+    header button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+    header .hidden{
+        display: none;
+    }
+
+  </style>
 </head>
 <body>
   <header>
