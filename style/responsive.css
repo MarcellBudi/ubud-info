@@ -5,7 +5,7 @@
   }
   .website-intro{
     font-size: 100px;
-    margin-top: 200px;
+    margin-top: 150px;
   }
   .form-search {
     width: 100%;
@@ -14,12 +14,25 @@
     padding: 0 15px;
   }
   .carousel-title {
-    transform: translate(-50%, -80%); 
+    transform: translate(-50%, -100%); 
   }
   .carousel-title h1 {
-    font-size: 70px;
+    font-size: 55px;
   }
   .carousel-title h2 {
+    transform: translate(0, 100px);
     font-size: 20px;
+  }
+  .what-is-ubud {
+    text-align: center;
+    position: relative;
+  }
+  .ubud-img{
+    position: relative;
+    left: 15px;
+    border-radius: 20px;
+  }
+  .ubud-location {
+    text-align: center;
   }
 }
