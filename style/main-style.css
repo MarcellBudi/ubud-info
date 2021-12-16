@@ -11,37 +11,41 @@
     transform: translate(0, -50px);
     opacity: 0;
     transition: 1s;
-  }
-  .website-intro-show{
-    opacity: 10;
-    transform: translate(0, 0);
-  }
-  .website-tagline{
-    text-shadow: 0 0 10px black;
-    transform: translate(0, 50px);
-    opacity: 0;
-    transition: 1s;
-  }
-  .website-tagline-show{
-    text-shadow: 0 0 10px black;
-    opacity: 10;
-    transform: translate(0, 0);
-  }
-  .input-search{
-    transform: translate(-100px, 0);
-    opacity: 0;
-    transition: 1s;
-  }
-  .input-search-show{
-    opacity: 10;
-    transform: translate(0, 0);
-  }
-  .button-search{
-    transform: translate(100px, 0);
-    opacity: 0;
-    transition: 1s;
-  }
-  .button-search-show{
-    opacity: 10;
-    transform: translate(0, 0);
-  }
+}
+.website-intro-show{
+opacity: 10;
+transform: translate(0, 0);
+}
+.website-tagline{
+text-shadow: 0 0 10px black;
+transform: translate(0, 50px);
+opacity: 0;
+transition: 1s;
+}
+.website-tagline-show{
+text-shadow: 0 0 10px black;
+opacity: 10;
+transform: translate(0, 0);
+}
+.input-search{
+transform: translate(-100px, 0);
+opacity: 0;
+transition: 1s;
+}
+.input-search-show{
+opacity: 10;
+transform: translate(0, 0);
+}
+.button-search{
+transform: translate(100px, 0);
+opacity: 0;
+transition: 1s;
+}
+.button-search-show{
+opacity: 10;
+transform: translate(0, 0);
+}
+
+footer {
+    font-size: 15px;
+}

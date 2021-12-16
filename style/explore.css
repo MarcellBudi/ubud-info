@@ -1,8 +1,7 @@
 body{
     padding: 0px !important;
     margin: 0px !important;
-}   
-
+}
 
 /* slider */
 @keyframes slider{
@@ -42,7 +41,6 @@ body{
 	}
 }
 
-
 #slider{
 	position: relative;
 	overflow: hidden;
@@ -52,7 +50,6 @@ body{
 	width: 20%;
 	float: left;
 }
-
 
 #slider figure{
 	position: relative;
@@ -67,8 +64,6 @@ body{
 .coro{
     margin-top: 83px;
 }
-
-
 
 .explore img{
     height: 20%;
@@ -118,7 +113,6 @@ body{
     background-color: white;
 }
 
- 
 .tren-conten figure{
     margin: 10px;
     border-radius: 35px;
@@ -185,7 +179,6 @@ body{
    width: 290px;
 }
 
-
 .butt-see{
     top: 15px;
     margin: auto;
@@ -211,7 +204,6 @@ body{
     top: 2px;
 }
 
-
 .hr{
     position: relative;
     top: -20px;
@@ -228,6 +220,7 @@ body{
     transform: translate(-50%, -50%);   
     text-shadow: 0 0 10px black;
 }
+
 .carousel-title h1{
     font-size: 90px;
     font-weight: bold;
