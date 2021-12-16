@@ -1,3 +1,9 @@
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+}   
+
+
 /* slider */
 @keyframes slider{
 
@@ -146,6 +152,7 @@
 }
   
 .more-detail a{
+    text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     border-radius: 100px;
@@ -174,8 +181,9 @@
 
 
 .butt-see{
+    top: 15px;
     margin: auto;
-    width: 15%;
+    width: 200px;
     padding: 10px 10px;
     background-color: white;
     z-index: 10;
@@ -183,6 +191,7 @@
 }
 
 .butt-see a{
+    text-decoration: none;
     font-weight: bold;
     border-radius: 100px;
     background-color: #FFC400;
