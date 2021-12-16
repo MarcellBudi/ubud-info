@@ -10,47 +10,6 @@ body{
   background-attachment: fixed;
 }
 
-.website-intro{
-  font-size: 150px;
-  text-shadow: 0 0 10px rgb(51, 51, 51);
-  transform: translate(0, -50px);
-  opacity: 0;
-  transition: 1s;
-}
-.website-intro-show{
-  opacity: 10;
-  transform: translate(0, 0);
-}
-.website-tagline{
-  text-shadow: 0 0 10px black;
-  transform: translate(0, 50px);
-  opacity: 0;
-  transition: 1s;
-}
-.website-tagline-show{
-  text-shadow: 0 0 10px black;
-  opacity: 10;
-  transform: translate(0, 0);
-}
-.input-search{
-  transform: translate(-100px, 0);
-  opacity: 0;
-  transition: 1s;
-}
-.input-search-show{
-  opacity: 10;
-  transform: translate(0, 0);
-}
-.button-search{
-  transform: translate(100px, 0);
-  opacity: 0;
-  transition: 1s;
-}
-.button-search-show{
-  opacity: 10;
-  transform: translate(0, 0);
-}
-
 .tren{
   padding-bottom: 40px;
   margin-top: 10px;

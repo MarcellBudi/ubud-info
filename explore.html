@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explore | Ubud Info</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/main-style.css">
 
   <style>
     .bd-placeholder-img {
@@ -54,28 +55,38 @@
     </nav>
   </header>
 
-  <section>
-      <div id="slider" class="explore">
-        <figure>
-              <img src="assets/explore/tegalallang.png" alt="tegalalang" style="height: 600px;">
-        </figure>
-        <figure>
-            <img src="assets/explore/seni-tari.png" alt="tegalalang" style="height: 600px;">
-        </figure>
-        <figure>
-            <img src="assets/explore/Campuhan-Ridge-Walk.jpg" alt="tegalalang" style="height: 600px;">
-        </figure>
-        <figure>
-          <img src="assets/explore/pasar-seni-ubud-tidak.jpg" alt="tegalalang" style="height: 600px;">
-        </figure>
-        <figure>
-          <img src="assets/explore/Villa-Cinta-Ubud.jpg" style="height: 600px;">
-        </figure>
+  <section class="coro">
+    <div id="carouselExampleControls" class="carousel slide position-relative" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/explore/tegalallang.png" class="caro-img d-block w-200 h-200" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="assets/explore/seni-tari.png" class="caro-img d-block w-200" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/explore/Campuhan-Ridge-Walk.jpg" class="caro-img d-block w-200" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/explore/pasar-seni-ubud-tidak.jpg" class="caro-img d-block w-200" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/explore/Villa-Cinta-Ubud.jpg" class="caro-img d-block w-200" alt="...">
+        </div>
       </div>
-      <div class="judul-expl">
-        <h1>EXPLORE</h1>
-        <h2>There are 750+ destination</h2>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="carousel-title text-white text-center">
+        <h1 class="website-intro explore-title">EXPLORE</h1>
+        <h2 class="website-tagline">There are 750+ destinations</h2>
       </div>
+    </div>
   </section>
 
   <section>
@@ -95,7 +106,8 @@
         </p>
         <p class="judul-conten">VICEROY BALI</p>
         <div class="sub-content">
-          <p>Jln. Lanyahan, Br. Nagi, <br> Ubud 80571 Indonesia</p>
+          <p>Jln. Lanyahan, Br. Nagi,</p>
+          <p>Ubud 80571 Indonesia</p>
         </div>
         <div class="more-detail">
           <a href="#">MORE DETAIL</a>
@@ -241,7 +253,7 @@
       <div class="col">
         <h5>Community</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+          <li class="nav-item mb-2  "><a href="#" class="nav-link p-0 text-white">About</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Submit on issue</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">GitHub Repo</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Discord</a></li>

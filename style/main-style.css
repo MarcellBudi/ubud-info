@@ -5,108 +5,43 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
-
-/* header */
-/* header{
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(19, 19, 19, 0.897);
-    backdrop-filter: blur( 4px );
-    box-shadow: 30px 0 10px black;
-} */
-
-header .nav-container{
-    width: 80%;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo{
-    width: auto;
-    height: auto;
-}
-
-header .logo img{
-    width: 100px;
-}
-
-header nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-header nav ul li{
-    display: inline;
-    margin: 0 5px;
-    padding: 10px 0;
-}
-
-header nav ul li a{
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: 0.3s ease-in;
-    color: white;
-    font-weight: bold;
-}
-
-header nav ul li a:hover{
-    background-color: rgba(32, 32, 32, 0.863);
-}
-
-header button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: white;
-}
-header .hidden{
-    display: none;
-}
-
-/* header */
-
-.fas{
-    padding-top: 10px;
-    font-size: 20px;
+.website-intro{
+    font-size: 150px;
+    text-shadow: 0 0 10px rgb(51, 51, 51);
+    transform: translate(0, -50px);
+    opacity: 0;
+    transition: 1s;
   }
-
-footer{
-    margin-top: 80px;
-    background-color: rgb(31, 31, 31);
-    color: white;
-}
-.footer-menu{
-    padding: 50px 100px;
-    display: flex;
-    justify-content: space-around;
-}
-.bottom-details{
-    background-color: rgb(20, 20, 20);
-    padding: 20px;
-    text-align: center;
-}
-.follow-us i{
-    margin: 20px 20px 0 0;
-    font-size: 30px;
-    color: white;
-}
-.contact-us p{
-    margin: 10px 0;
-    line-height: 20px;
-    font-size: 30px;
-}
-.community{
-    line-height: 30px;
-}
-.community h2{
-    margin-bottom: 10px;
-}
+  .website-intro-show{
+    opacity: 10;
+    transform: translate(0, 0);
+  }
+  .website-tagline{
+    text-shadow: 0 0 10px black;
+    transform: translate(0, 50px);
+    opacity: 0;
+    transition: 1s;
+  }
+  .website-tagline-show{
+    text-shadow: 0 0 10px black;
+    opacity: 10;
+    transform: translate(0, 0);
+  }
+  .input-search{
+    transform: translate(-100px, 0);
+    opacity: 0;
+    transition: 1s;
+  }
+  .input-search-show{
+    opacity: 10;
+    transform: translate(0, 0);
+  }
+  .button-search{
+    transform: translate(100px, 0);
+    opacity: 0;
+    transition: 1s;
+  }
+  .button-search-show{
+    opacity: 10;
+    transform: translate(0, 0);
+  }
